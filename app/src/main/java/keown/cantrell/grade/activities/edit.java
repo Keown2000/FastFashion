@@ -141,10 +141,6 @@ public class edit extends AppCompatActivity {
 
         if (requestCode == 0 && resultCode == RESULT_OK && data != null) {
             photouri = data.getData();
-            //  imageView.setImageURI(photouri);
-//            Snackbar.make(findViewById(R.id.rootlayout), "Photo Upload Success भन्ने मेसेज आएपछि मात्र 'सेभ गर्नुहोस' बटन थिच्नु होला", Snackbar.LENGTH_LONG).show();
-            //  uploadtofirebase();
-
 
         }
     }
