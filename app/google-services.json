@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106522873743",
+    "project_id": "fastfashiondatabase",
+    "storage_bucket": "fastfashiondatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106522873743:android:b2d3fc6dfb8ab21e2545fa",
+        "android_client_info": {
+          "package_name": "keown.cantrell.grade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106522873743-eb2d7vv4qsr8ec7f448r1mk4a85itnl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTEJUqDaebw6x_9pjSTpZftJVYW1nGCCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106522873743-eb2d7vv4qsr8ec7f448r1mk4a85itnl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

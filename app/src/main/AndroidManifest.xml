@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="keown.cantrell.grade">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/download"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hh"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FastFashion">
+        <activity android:name=".activities.edit" />
+        <activity android:name=".activities.profile"/>
+        <activity android:name=".activities.ContactMe" />
+        <activity android:name=".activities.Gallery2" />
+        <activity android:name=".activities.ImagesActivity" />
+        <activity android:name=".activities.ValActivity" />
+        <activity android:name=".activities.adddata"></activity>
+        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.DashboardActivity" />
+        <activity android:name=".activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

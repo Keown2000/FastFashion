@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="750dp"
+    tools:context=".activities.ContactMe"
+    android:orientation="vertical"
+   android:background="@drawable/white">
+
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="@color/black"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:transitionName="logo_text" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reg_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        app:boxStrokeErrorColor="@color/white"
+        android:padding="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="Full Name"
+        android:textColorHint="@color/black"
+        app:placeholderTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reg_message"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Message"
+        android:textColorHint="@color/black"
+        android:transitionName="logo_text"
+        android:padding="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="text"
+            android:textColor="@color/black"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColorHint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneNo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:hint="Phone No"
+        android:padding="10dp"
+        android:textColorHint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Regbtn"
+            android:layout_width="100dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="155dp"
+
+
+            android:clickable="true"
+
+
+            android:text="GO"
+            android:textColor="#fff"
+            android:transitionName="button_tran" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@color/purple_200"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu_navigation" />
+
+</LinearLayout>

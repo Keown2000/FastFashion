@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">FastFashion</string>
+    <string name="button_addGrading">Add Grading</string>
+    <string name="hint_gradingTitle">Grading Title</string>
+    <string name="hint_gradingDescription">Description </string>
+    <string name="hint_gradingGrade">Grade </string>
+    <string name="hint_gradingOther">Other </string>
+    <string name="menu_cancelGrading">Cancel</string>
+
+    <string name="menu_addGrading">Add</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="total">Total so Far</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="donateButton">Donate</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login">Login</string>
+    <string name="enter_grading_title"> Please enter a Grading Title </string>
+    <string name="save_grading"> Save Grading </string>
+
+    <string name="select_grading_image">Select grading image</string>
+    <string name="change_grading_image">Change grading image</string>
+    <string name="button_location">Set Location</string>
+    <string name="title_activity_map">Map</string>
+    <string name="google_maps_key">INSERT KEY HERE</string>
+    <string name="menu_deleteGrading">Delete</string>
+    <string name="title_activity_grading_maps">Map of All Gradings </string>
+    <string name="grading_image_placeholder">Grading Imagee</string>
+    <string name="grading_title_placeholder">Grading Title</string>
+    <string name="grading_description_placeholder">Grading Description</string>
+    <string name="button_addImage"> Add Image </string>
+
+    <string name="reportTitle">Donations Report</string>
+    <string name="defaultAmount">00</string>
+    <string name="defaultMethod">N/A</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="donateTitle">Welcome Homer</string>
+    <string name="donateSubtitle">Please Give Generously</string>
+
+    <string name="aboutus_title">Homer for President !!</string>
+    <string name="aboutus_message">Welcome to the new grading system for educators\n\nStore you gradings easily \n\n</string>
+</resources>
+
